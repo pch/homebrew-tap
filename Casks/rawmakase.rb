@@ -1,9 +1,9 @@
 cask "rawmakase" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.4.0"
-  sha256 arm:   "d40a66cd39b6b5b0085a361fc72203c7b86f8af3aed8782a03f03ccf8a474e69",
-         intel: "fe66d974ed47240825e6d06aee13ab77347d929b5318a41807c8a812b588e3cf"
+  version "0.4.1"
+  sha256 arm:   "a7a6c86e0662f8244d184db0209401b112c8f6ef6368b7b7df99d2dcaa6edee7",
+         intel: "bf7ecb535e474de08e95f34cb6f94030f2d2e32129a9ad45a660fa2a6991dd2f"
 
   url "https://github.com/pch/rawmakase/releases/download/v#{version}/rawmakase-v#{version}-macos-#{arch}.dmg"
   name "RAWmakase"
